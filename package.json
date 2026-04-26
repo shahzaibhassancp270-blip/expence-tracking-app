@@ -1,0 +1,22 @@
+{
+  "name": "expence",
+  "version": "1.0.0",
+  "main": "blank.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "keywords": [
+    "library",
+    "framework",
+    "common"
+  ],
+  "author": "Pasha Rumkin <dev@rumk.in>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/rumkin/blank-js/issues"
+  },
+  "private": true
+}
