@@ -1,4 +1,9 @@
-Blank.js
-========
+# Expense Tracking App
 
-Blank.js is a common function all-in-one library
+A React Native mobile application for tracking expenses.
+
+## Features
+- User Authentication (Firebase)
+- Expense Management
+- Analytics and Dashboards
+- Dark Mode Support
