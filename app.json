@@ -1,4 +1,42 @@
 {
-  "name": "expence",
-  "slug": "expence"
+  "expo": {
+    "name": "SmartSpend",
+    "slug": "expence",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00BFA5"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shazaib.smartspend"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/logo.png",
+        "backgroundColor": "#00BFA5"
+      },
+      "package": "com.shazaib.smartspend"
+    },
+    "web": {
+      "favicon": "./src/assets/logo.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4395cfe9-f0d5-44c9-9bd5-ace4654b9e15"
+      }
+    },
+    "owner": "shahzaib270"
+  }
 }
